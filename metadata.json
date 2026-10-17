@@ -1,0 +1,6 @@
+{
+  "name": "ReshmaTex — AI Workforce Upskilling Platform",
+  "description": "Role-specific AI training, interactive roleplay simulations, and enterprise knowledge integration for Sales, HR, and Finance teams.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
