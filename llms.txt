@@ -1,0 +1,29 @@
+# ReshmaTex — AI Workforce Upskilling Platform
+> Role-specific AI training, interactive roleplay simulations, and enterprise knowledge grounding for Sales, HR, and Finance teams.
+
+## Core Documentation
+- [AGENTS.md](AGENTS.md): Full technical architecture, canonical data models, and modification rules for autonomous agents and LLMs.
+- [README.md](README.md): Human-facing overview, feature breakdown, getting started guide, and enterprise security standards.
+
+## Project Characteristics
+- Framework: React 19 SPA + TypeScript + Vite 8
+- Styling: Tailwind CSS v4 (@tailwindcss/vite) + Inter / Plus Jakarta Sans fonts
+- Icons: Lucide React (lucide-react)
+- Animations & Confetti: canvas-confetti
+- Persistence: LocalStorage synchronized under `reshmatex_app_v2_*` keys
+- Port: 3000
+
+## Key Code Locations
+- State Orchestration: `src/App.tsx`
+- Type Contracts: `src/types.ts`
+- Curricula & Mock Data: `src/data/mockData.ts`
+- Landing & Public Pages: `src/components/LandingPage.tsx`, `src/components/Navbar.tsx`
+- Department Tracks: `src/views/TrackView.tsx`
+- AI Roleplay Sandbox: `src/views/PlaygroundView.tsx`
+- Enterprise RAG Knowledge: `src/views/KnowledgeView.tsx`
+- Analytics & Reports: `src/views/AnalyticsView.tsx`
+- Team Management: `src/views/TeamView.tsx`
+
+## Verification Commands
+- Lint / Type Check: `npm run lint` (runs `tsc --noEmit`)
+- Production Build: `npm run build` (runs `vite build`)
